@@ -1,10 +1,7 @@
 #include <Arduino.h>
 #include <WiFi.h>
 #include <WebServer.h>
-
-// ---------- EDIT THESE ----------
-const char* WIFI_SSID = "AndroidAP4698";
-const char* WIFI_PASS = "4d86ef2f2bc7";
+#include "secrets.h"
 
 #define TRIG_PIN 5
 #define ECHO_PIN 18
